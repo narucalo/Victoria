@@ -12,7 +12,8 @@ import {
     return (
       <section className='max-container'>
         <h1 className='head-text'>
-          Hello, My name is{" "}
+          Hello, My name is{"Victoria"}
+
           <span className='blue-gradient_text font-semibold drop-shadow'>
             {" "}
             Victoria
