@@ -1,0 +1,56 @@
+Layout Sketch:
+
+-----------------------------------------------------
+| Header                                             |
+| - Logo (left)                                     |
+| - Navigation (right, possibly hamburger on mobile) |
+-----------------------------------------------------
+| Hero Section                                       |
+| - Headline (e.g., "Victoria Joseph, Web Developer")|
+| - Subheading (brief skills summary)               |
+| - Call to Action (e.g., "View My Work")           |
+| - [Optional] Background Image/Visual              |
+-----------------------------------------------------
+| About Me Section                                   |
+| - Profile Picture                                 |
+| - Short Bio                                       |
+| - Skills List (icons or text)                     |
+-----------------------------------------------------
+| Portfolio Section                                  |
+| - Project 1                                       |
+|   - Image/Thumbnail                               |
+|   - Title                                         |
+|   - Short Description                             |
+|   - Tech Stack Used                               |
+|   - Link to Live Demo/Code                        |
+| - [Repeat for other projects]                     |
+-----------------------------------------------------
+| Blog/Posts Section (if applicable)                 |
+| - Recent Post 1                                    |
+|   - Title                                         |
+|   - Excerpt                                       |
+|   - Read More Link                                |
+| - [Repeat for other posts]                        |
+-----------------------------------------------------
+| Contact Section                                    |
+| - Contact Form                                     |
+|   - Name, Email, Message fields                  |
+|   - Submit button                                 |
+| - [Optional] Social Media Links                   |
+-----------------------------------------------------
+| Footer                                             |
+| - Copyright Notice                                |
+| - [Optional] Links to Other Pages (if any)       |
+-----------------------------------------------------
+Interactive Elements:
+
+Navigation: Smooth scrolling to each section on the page
+Portfolio: Hover effects on project cards, potentially modal/lightbox for larger views
+Contact Form: Validation and submission (likely client-side only with GitHub Pages)
+Content Placeholder Suggestions:
+
+Hero: Strong headline, highlight key skills, clear CTA
+About: Concise bio, focus on relevant experience, list tech stack proficiency
+Portfolio: Select best projects, high-quality visuals, concise descriptions
+Blog: If included, only most recent posts, entice to read more
+Contact: Simple form, clear call to action
