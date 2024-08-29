@@ -1,24 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-# Victoria Project
-
-## Overview
-
-This project involves creating a responsive navigation bar with a hamburger menu for mobile devices. The navbar is designed to be user-friendly and functional across different screen sizes, including desktops, tablets, and smartphones.
-
-## Features
-
-- **Responsive Navbar**: The navbar adjusts its layout based on the screen size, displaying links inline on larger screens and within a collapsible hamburger menu on smaller screens.
-- **Hamburger Menu**: On mobile devices, the navbar collapses into a hamburger menu. When clicked, the menu expands to reveal navigation links.
-
-## Implementation Details
-
-### 1. Creating the Navbar
+Project Updates - August 29, 2024
+The project today focused on refining the footer component's styling to eliminate an unwanted box outline and excessive depth that made it stand out from the rest of the website's design. After inspecting the existing CSS, the issue was identified as being caused by a combination of box-shadow, border, and conflicting styles. To resolve this, the box-shadow property and any borders applied to the .footer and .footer-container classes were removed. The footer and its container were also set to have a transparent background to match the page's design. Inline styles were used to override any persistent issues, and !important rules were applied where necessary to enforce the correct styling. As a result, the footer now seamlessly blends with the rest of the page, creating a more cohesive and polished appearance across all pages where the footer is used.

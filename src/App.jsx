@@ -1,18 +1,72 @@
+// src/App.jsx
+
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import VideoPlayer from './components/VideoPlayer';
+import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
-function App() {
+const App = () => {
   return (
-    <div style={{ paddingTop: '60px' }}>
+    <Router>
       <Navbar />
+      <Routes>
+        {/* Landing Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <VideoPlayer />
+              <HeroSection />
+            </>
+          }
+        />
+        
+        {/* About Page */}
+        <Route
+          path="/about"
+          element={
+            <div className="min-h-screen flex flex-col">
+              <main className="flex-grow">
+                <About />
+              </main>
+              <Footer /> {/* Footer included */}
+            </div>
+          }
+        />
+        
+        {/* Contact Page */}
+        <Route
+          path="/contact"
+          element={
+            <div className="min-h-screen flex flex-col">
+              <main className="flex-grow">
+                <Contact />
+              </main>
+              <Footer /> {/* Footer included */}
+            </div>
+          }
+        />
 
-      {/* Placeholder content for other sections */}
-      <div id="home">Home Section</div>
-      <div id="about">About Section</div>
-      <div id="portfolio">Portfolio Section</div>
-      <div id="contact">Contact Section</div>
-    </div>
+        {/* Portfolio Page */}
+        <Route
+          path="/portfolio"
+          element={
+            <div className="min-h-screen flex flex-col">
+              <main className="flex-grow">
+                <Portfolio />
+              </main>
+              <Footer /> {/* Footer included */}  
+            </div>
+          }
+        />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
