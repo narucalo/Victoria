@@ -1,6 +1,7 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
-import '../index.css';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import "../index.css"; 
+import logo from '../assets/Logo.svg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,19 +9,28 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <a href="/">My Portfolio</a>
+        <Link to="/"> {/* Link to the home page */}
+          <img src={logo} alt="VJ Logo" style={{ height: '50px' }} />
+        </Link>
       </div>
+
       <div className={`navbar-toggle ${isMenuOpen ? 'open' : ''}`} onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
+
       <div className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
         <ul className="navbar-nav">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <Link to="/about" onClick={() => setIsMenuOpen(false)}>About</Link> {/* Link to the About page */}
+          </li>
+          <li>
+            <Link to="/portfolio" onClick={() => setIsMenuOpen(false)}>Portfolio</Link> {/* Link to the Portfolio page */}
+          </li>
+          <li>
+            <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link> {/* Link to the Contact page */}
+          </li>
         </ul>
       </div>
     </nav>
