@@ -7,23 +7,32 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Box from '@mui/material/Box';
 import { ThemeProvider } from '@mui/material/styles';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 
-function SkillArray() {
-  const SkillList =  ["JavaScript", "React", "Bootstrap", "HTML", "CSS", "Node.js", "Figma", "Git" ];
+
+function SkillList() {
+  const skills = ["JavaScript", "React", "Bootstrap", "HTML", "CSS", "Node.js", "Figma", "Git" ];
   
-  return (
-    <div>
-      <ul>
-        {SkillList.map(item => (
-          <li key={item}>{item}</li>
+    return (
+      <List>
+        {SkillList.map((item, index) => (
+          <ListItem key={index} button component="a" href={item.path}>
+            <ListItemIcon>{item.icon}</ListItemIcon>
+          </ListItem>
         ))}
-      </ul>
-    </div>
-  );
-}
+      </List>
+    );
+  }
 
+
+
+const CustomJavaScript = () => {
+  return (
+    <JavaScriptSharp  style={{ color: 'white' }} />
+  );
+};
 
 
 export default function BoxSx() {
