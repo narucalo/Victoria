@@ -14,4 +14,26 @@ const CTA = () => {
   );
 };
 
+function Avatar() {
+  return (
+    <img
+      className="avatar"
+      src=" "
+      alt="Victoria Joseph"
+      width={100}
+      height={100}
+    />
+  );
+}
+
+export default function Profile() {
+  return (
+    <Avatar />
+  );
+}
+
+
+
+
 export default CTA;
+
