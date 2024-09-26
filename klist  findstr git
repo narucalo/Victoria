@@ -1,0 +1,93 @@
+[33mcommit d2005090c8463e476d6072580ca0bda63dc3a924[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Victoria Joseph <josephv1791@gmail.com>
+Date:   Sat Sep 21 11:19:49 2024 -0400
+
+    merge
+
+[33mcommit 01caf71891453ddeb11b3a2c52aba2eb2c88f4c3[m
+Merge: d4c605c 5becb58
+Author: Victoria Joseph <josephv1791@gmail.com>
+Date:   Sat Sep 21 11:19:40 2024 -0400
+
+    Merge branch 'main' of https://github.com/magnolianroot/project
+
+[33mcommit d4c605cf3589bb2a021336802c6ea36634e26c8d[m
+Author: Victoria Joseph <josephv1791@gmail.com>
+Date:   Sun Sep 15 00:27:40 2024 -0400
+
+    skills.jsx
+
+[33mcommit 32706b274d735d3e7424c9e7b4083ea1e7011078[m
+Author: Victoria Joseph <josephv1791@gmail.com>
+Date:   Sat Sep 14 20:47:08 2024 -0400
+
+    skills-list
+
+[33mcommit c64340166cb0a81dd7b9425a844d31a10525bc0b[m
+Author: Victoria Joseph | magnolianroot <110946840+magnolianroot@users.noreply.github.com>
+Date:   Thu Sep 12 02:29:47 2024 -0400
+
+    skills
+
+[33mcommit 5becb5818681e57f716fdb392821d2d6e99564f0[m
+Merge: b233852 e18ee87
+Author: Victoria Joseph <110946840+magnolianroot@users.noreply.github.com>
+Date:   Sun Sep 1 02:19:57 2024 -0400
+
+    Merge pull request #1 from narucalo/main
+    
+    READ.ME and file components
+
+[33mcommit b233852d930af6bee528ba4de6983f8527e7c345[m
+Author: Victoria Joseph | magnolianroot <110946840+magnolianroot@users.noreply.github.com>
+Date:   Sun Sep 1 00:42:32 2024 -0400
+
+    Create GitHubCalendar.jsx
+
+[33mcommit 2871662de339a3c8f44a619f63f356507180a034[m
+Author: Victoria Joseph | magnolianroot <110946840+magnolianroot@users.noreply.github.com>
+Date:   Fri Aug 30 20:03:28 2024 -0400
+
+    my commit
+
+[33mcommit 52c641c4fffd323ec547d6d853a7c4c0c0f464a6[m
+Author: Victoria Joseph | magnolianroot <110946840+magnolianroot@users.noreply.github.com>
+Date:   Fri Aug 30 10:57:24 2024 -0400
+
+    navbar
+
+[33mcommit e18ee87237c5f6b3333b8366e842c55b717656d9[m
+Author: Calvin <caltannguyen@gmail.com>
+Date:   Thu Aug 29 17:19:31 2024 -0400
+
+    Update README.md with project details and footer styling changes
+
+[33mcommit 479fefc173c1aab516c82613f723f3b4b3efe942[m
+Author: Nam <caltannguyen@gmail.com>
+Date:   Thu Aug 29 01:40:45 2024 -0400
+
+    Added Victoria.docx to the project narucalo/Victoria
+
+[33mcommit 2977b8f35eb9614eb3de74f8556c8db1ad0eded1[m
+Author: Nam <caltannguyen@gmail.com>
+Date:   Thu Aug 29 01:33:34 2024 -0400
+
+    Updated README with details on the navbar creation process
+
+[33mcommit 7d9b96434a9fcea83e948e04f49b19f0cc836466[m
+Author: Nam <caltannguyen@gmail.com>
+Date:   Thu Aug 29 01:16:37 2024 -0400
+
+    Initial commit on Victoria branch
+
+[33mcommit a3b654d402f514ff42201b454bc04f3fe260cdbf[m
+Author: Victoria Joseph | magnolianroot <110946840+magnolianroot@users.noreply.github.com>
+Date:   Thu Aug 29 00:20:17 2024 -0400
+
+    Update About.jsx
+
+[33mcommit fbed7b2554a0048c60fdf4a12d2b6461f0bae919[m
+Author: Victoria Joseph | magnolianroot <110946840+magnolianroot@users.noreply.github.com>
+Date:   Thu Aug 29 00:18:21 2024 -0400
+
+    Initial commit

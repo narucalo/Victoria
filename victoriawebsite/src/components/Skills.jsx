@@ -1,33 +1,78 @@
 // src/components/Skills.jsx
 import React from 'react';
+import JavascriptIcon from '@mui/icons-material/JavascriptSharp';
+import HtmlSharpIcon from '@mui/icons-material/HtmlSharp';
+import CssSharpIcon from '@mui/icons-material/CssSharp';
+import { ThemeProvider } from '@mui/material/styles';
+import HomeIcon from '@mui/icons-material/Home';
+import { Css, CssSharp, HtmlSharp, JavascriptSharp } from '@mui/icons-material';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import { styled } from '@mui/material/styles';
+import Stack from '@mui/material/Stack';
+import Html from '@mui/icons-material/Html';
 
-const Skills = () => {
+
+  const skills = ["JavaScript", "React", "Bootstrap", "HTML", "CSS", "Node.js", "Figma", "Git" ];
+  
+
+
   return (
-    <section id="skills-placeholder" className="placeholder">
-      <div className="container flex-wrap border border-2">
-        <div className="row flex-grow-1">
-          <p className="unselectable">
-            <strong>Skills: 2+ yrs of Front-End Developer Experience with a focus on MERN and Back End.</strong><br />
-            As of 8/24, I'm working on creating:
-            <br /> a RESTful API using ASP.NET Core
-            <br /> a WordPress site with PHP.
-            <br /> a Ren'Py game
-          </p>
-          <ul className="list-group list-group-horizontal list-group-flush">
-            <li className="list-group-item"><i className="fab fa-html5 fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-css3 fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-js fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-mdb fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-bootstrap fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-php fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-laravel fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab fa-node-js fa-2x"></i></li>
-            <li className="list-group-item"><i className="fab bi-filetype-sql fa-2x"></i></li>
-          </ul>
-        </div>
+    <Stack direction="row" spacing={2}>
+      <JavascriptSharp />
+      <Html />
+      <Css />
+    </Stack>
+  );
+}
+
+
+
+
+  const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: '#fff',
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    ...theme.applyStyles('dark', {
+      backgroundColor: '#1A2027',
+    }),
+  }));
+  
+  export default function ResponsiveStack() {
+    return (
+      <div>
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={{ xs: 1, sm: 2, md: 4 }}
+        >
+          <Item>Item 1</Item>
+          <Item>Item 2</Item>
+          <Item>Item 3</Item>
+        </Stack>
       </div>
-    </section>
+    );
+  }
+  
+
+const CustomJavaScript = () => {
+  return (
+    <JavaScriptSharp  style={{ color: 'white' }} />
   );
 };
 
-export default Skills;
+
+
+
+
+
+
+function Post() {
+  return (
+    <>
+      <PostTitle />
+      <PostBody />
+    </>
+  );
+}
